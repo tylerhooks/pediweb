@@ -1,0 +1,105 @@
+html, button, input, select, textarea { font-family: 'Quicksand', sans-serif; }
+body {
+  margin: 0; 
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.logo{
+	width: 100%;
+	max-width: 786px;
+}
+
+ a {
+ 	color: #F22222;
+ }
+
+a:hover {
+	color: #EBF227;
+	text-decoration: none;
+}
+
+.jumbotron {
+	background-color: #79F4FC;
+}
+
+.navbar {
+	background-color: rgba(121,244,252, .3);
+}
+
+.nav li a:hover{
+	background-color: rgba(174,73,242, .7) !important;
+}
+
+/* =======================================================================
+Contact
+========================================================================== */
+.section-padding { padding: 90px 0 100px }
+.contact-details { margin: 70px 0; }
+.contact-details h2 { font-size: 20px; }
+.contact-details h2 span { font-weight:bold; display: block; color: #AE49F2; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
+.contact-wrap { position: relative; }
+.dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
+.light-box { border-radius: 4px; margin-bottom: 30px; background-color: rgba(121,244,252, .3); -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
+.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #AE49F2; -moz-box-shadow: 0px 3px 0px 0px #AE49F2; box-shadow: 0px 3px 0px 0px #AE49F2; }
+.box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
+.box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
+
+/* ================================================================
+About
+=================================================================== */
+.team-name {
+	padding: 15px 0;
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.team-name span {
+	font-size: 18px;
+	font-weight: normal;
+	color: #888;
+}
+
+.team-about p {
+	padding: 0 0 15px 0;
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 15px;
+}
+
+/* ================================================================
+forms page
+=================================================================== */
+
+.forms a{
+	font-size: 20px;
+}
+
+
+/* ==========================================================================
+Footer
+========================================================================== */
+footer a { color: #a1a9b0; }
+footer { background-color: #242830; padding: 40px 0 30px; }
+footer p { color: #fff; }
+ul.legals { list-style: none; color: #fff; line-height: 25px; }
+ul.legals li { display: inline-block; }
+ul.legals li::after { content: " |"; }
+ul.legals li:last-child::after { content: ""; }
+.legals { text-align: left; }
+.credit { text-align: right; }
+
+/* COLORS */
+/* 
+   #F22222 -red
+   #F2BB16 -orange
+   #EBF227 -yellow
+   #8CF227 -light green
+   #AE49F2 -purple
+*/
+
