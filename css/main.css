@@ -16,11 +16,11 @@ body {
 }
 
  a {
- 	color: #F22222;
+ 	color:  #9ADF50;
  }
 
 a:hover {
-	color: #EBF227;
+	color: #FFA10E;
 	text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ About
 .team-name span {
 	font-size: 18px;
 	font-weight: normal;
-	color: #888;
+	color: #373737;
 }
 
 .team-about p {
@@ -84,9 +84,9 @@ forms page
 /* ==========================================================================
 Footer
 ========================================================================== */
-footer a { color: #a1a9b0; }
-footer { background-color: #242830; padding: 40px 0 30px; }
-footer p { color: #fff; }
+footer a { color: #373737; }
+footer { background-color: #79F4FC; padding: 40px 0 30px; }
+footer p { color: #000; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
@@ -103,3 +103,36 @@ ul.legals li:last-child::after { content: ""; }
    #AE49F2 -purple
 */
 
+/* NEW COLORS */
+
+/*
+Light Green - #BCFF75
+Dark Green -  #9ADF50
+Dark Grey - #373737
+Orange -  #FFA10E
+Blue - #27ADC7
+*/ 
+
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  
+  height: 90px; 
+}
+.site-footer {
+  background:  #79F4FC;
+}
