@@ -15,15 +15,6 @@ body {
 	max-width: 786px;
 }
 
- a {
- 	color:  #9ADF50;
- }
-
-a:hover {
-	color: #FFA10E;
-	text-decoration: none;
-}
-
 .jumbotron {
 	background-color: #79F4FC;
 }
@@ -39,10 +30,20 @@ a:hover {
 /* =======================================================================
 Contact
 ========================================================================== */
-.section-padding { padding: 90px 0 100px }
+.section-padding { padding: 45px 0 50px }
 .contact-details { margin: 70px 0; }
-.contact-details h2 { font-size: 20px; }
-.contact-details h2 span { font-weight:bold; display: block; color: #AE49F2; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
+.contact-details h2 { font-size: 20px;}
+.contact-details h2 span { 
+  font-weight:bold; 
+  display: block; 
+  color: #AE49F2; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-size: 14px; 
+  margin-top: 15px; 
+  text-decoration: underline;
+}
+
 .contact-wrap { position: relative; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
 .light-box { border-radius: 4px; margin-bottom: 30px; background-color: rgba(121,244,252, .3); -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
@@ -77,22 +78,39 @@ forms page
 =================================================================== */
 
 .forms a{
-	font-size: 20px;
+	font-size: 15px;
+}
+
+.forms span{
+  font-size: 25px !important;
+}
+
+dl {
+  text-align: left;
+  margin-left: 20px;
+}
+
+dd {
+  margin-left:50px;
+  margin-top: -20px;
+}
+
+.forms img {
+  margin-top: 13px;
+  padding-right: 10px;
+  height: 50px;
+  width: 50px;
 }
 
 
 /* ==========================================================================
 Footer
 ========================================================================== */
-footer a { color: #373737; }
-footer { background-color: #79F4FC; padding: 40px 0 30px; }
-footer p { color: #000; }
-ul.legals { list-style: none; color: #fff; line-height: 25px; }
-ul.legals li { display: inline-block; }
-ul.legals li::after { content: " |"; }
-ul.legals li:last-child::after { content: ""; }
-.legals { text-align: left; }
-.credit { text-align: right; }
+.credit a { color: #AE49F2 }
+.credit a:hover { font-weight: bold; color: #A61E36; }
+footer { background-color: #79F4FC; padding: 30px 0 20px; }
+footer p { color: #AE49F2 }
+
 
 /* COLORS */
 /* 
@@ -110,29 +128,4 @@ Light Green - #BCFF75
 Dark Green -  #9ADF50
 Dark Grey - #373737
 Orange -  #FFA10E
-Blue - #27ADC7
-*/ 
-
-
-* {
-  margin: 0;
-}
-html, body {
-  height: 100%;
-}
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px; 
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-.site-footer, .page-wrap:after {
-  
-  height: 90px; 
-}
-.site-footer {
-  background:  #79F4FC;
-}
+Blue - #27ADC7 
